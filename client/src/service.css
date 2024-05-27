@@ -1,0 +1,51 @@
+/*
+File name: service.css
+Student's Name: Feng Ming Shih
+StudentID: 301399823
+Date: 2024-05-25
+*/
+
+.service {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+  
+.service h1 {
+    margin-bottom: 20px;
+}
+  
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+  
+.service-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 300px;
+    text-align: left;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+  
+.service-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+  
+.service-item h2 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+  
+.service-item p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+  

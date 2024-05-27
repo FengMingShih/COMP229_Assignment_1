@@ -1,0 +1,48 @@
+/*
+File name: about.css
+Student's Name: Feng Ming Shih
+StudentID: 301399823
+Date: 2024-05-25
+*/
+
+.about {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+  
+.about h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.about img.me-image {
+    display: block;
+    margin: 0 auto 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+  
+.about p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+  
+.about a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #61dafb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+  
+.about a.btn:hover {
+    background-color: #21a1f1;
+}
